@@ -11,7 +11,7 @@ public class QuartzFarmerAddon extends MeteorAddon {
 
     @Override
     public void onInitialize() {
-        LOG.info("Initializing litematica printer");
+        LOG.info("Initializing Quartz Farmer Addon");
 
         // Modules
         Modules.get().add(new QuartzFarmer());
